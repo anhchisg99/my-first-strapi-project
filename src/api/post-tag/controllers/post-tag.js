@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * product controller
+ * post-tag controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::product.product');
+module.exports = createCoreController('api::post-tag.post-tag');
